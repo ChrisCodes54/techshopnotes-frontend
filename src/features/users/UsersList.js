@@ -40,6 +40,8 @@ const UsersList = () => {
     )
   }
 
+  return content
+
 
 }
 

@@ -8,7 +8,7 @@ import { selectUserById } from './usersApiSlice'
 import React from 'react'
 
 const User = ({ userId }) => {
-    const user = useSelector(state => selectUserById(state, userID))
+    const user = useSelector(state => selectUserById(state, userId))
 
     const navigate = useNavigate()
 
